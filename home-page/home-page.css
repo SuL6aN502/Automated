@@ -1,0 +1,126 @@
+
+main{
+    height: 370vh;
+    width: 100%;
+
+}
+.sect1{
+    height:125vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: start;
+    z-index: 1;
+}
+.sect1 img{
+width: 100%;
+position: absolute;
+z-index: -1;
+transform: translate(0vh,12vh);
+}
+.sect1 h1{
+    color: aliceblue;
+    font-size: 130px;
+    transform: translate(0%,100%);
+}
+.sect1 p{
+    color: aliceblue;
+    font-size: 40px;
+    width: 70%;
+    text-align: center;
+    transform: translate(0%,150%);
+}
+/* --------------------------------------------- */
+.sect2{
+    height: 37vh;
+    width: 100%;
+    background-color: #004e6f;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.card{
+    border-radius: 25px;
+    width: 30%;
+    height: 80%;
+    background-color: rgba(240, 248, 255, 0.6);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+    border-right:15px solid #00ffff;
+}
+.card h3{
+    font-size: 40px;
+    color: #000;
+    opacity:100%;
+}
+.card p{
+    font-size: 40px;
+}
+/* ----------------------------------- */
+.sect3{
+    margin: 5% 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+}
+.sect3 img{
+width: 50%;
+}
+b{
+    color: #004e6f;
+}
+.pgrob1{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+.pgrob1 h2{
+
+font-size: 50px;
+}
+.pgrob1 p{
+width: 80%;
+font-size: 25px;
+}
+/* ---------------------------------------- */
+
+.sect4{
+    margin: 10% 0 0 0;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sect4 img{
+width: 46%;
+}
+.sect4 hgroup{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+.sect4 h2{
+font-size: 50px;
+}
+.sect4 p{
+    width: 80%;
+    font-size: 25px;
+}
+/* --------------------------------- */

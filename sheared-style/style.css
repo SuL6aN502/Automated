@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Cairo:wght@200&family=Changa:wght@500;600&family=Katibeh&family=Reem+Kufi+Fun:wght@600&family=Tajawal:wght@500&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Aref Ruqaa', serif;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Changa', sans-serif;
+    font-family: 'Katibeh', cursive;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-family: 'Tajawal', sans-serif;
+}
+header{
+    height: 13vh;
+    width: 100vw;
+    position: fixed;
+    background-color: #004e6f;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:right;
+    z-index:10;
+}
+header img{
+    height: 90%;
+    cursor: pointer;
+}
+header nav{
+    display: flex;
+    gap: 30px;
+}
+.dlogo{
+    margin-right: 35%;
+    width: 6.5%;
+    height: 100%;
+    background-color: #00ffff41;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav a{
+    color: aliceblue;
+    font-size: 25px;
+    border-right:3px whitesmoke solid;
+    text-decoration: none;
+    transition: 0.6s ;
+    padding: 10px;
+}
+nav a:hover{
+    color: #00FFFF;
+    border-right:#2658ff 3px solid ;
+    transform: translate(0%,-10%);
+}
+
+button{
+    width: 10vw;
+    height: 50%;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: #00ffff5d;
+    color: whitesmoke;
+    margin:0 3vw 0 3vw ;
+    transition: 0.4s;
+    border: none;
+}
+button:hover{
+    color: #02333a;
+    border-right:#2658ff 5px solid ;
+    border-bottom:#2658ff 5px solid ;
+    transform: translate(0%,-10%);
+    cursor: pointer;
+}
+
+
+/* ------------------------------------------------- */
+
+footer{
+    height: 40vh;
+    width: 100%;
+    background-color:#051217;
+    border-top-right-radius:40px ;
+    border-top-left-radius:40px ;
+}
+.s-fotr img{
+width: 16vw;
+}
+
+.s-fotr{
+    width: 100%;
+    height: 92%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+.s-fotr :hover{
+color: #00FFFF;
+}
+
+.lowlink{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.lowlink a{
+color: aliceblue;
+text-decoration: none;
+line-height: 40px;
+}
+footer p{
+color: aliceblue;
+text-align: center;
+bottom: 0;
+}

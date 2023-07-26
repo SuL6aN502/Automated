@@ -1,0 +1,54 @@
+/* ------------------------------------------------------------------------- */
+.sect1{
+    width: 100%;
+    height: 11.4vw;
+    background-color:#006d9b;
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.sect1 h1{
+font-size: 3.5vw;
+}
+.sect2{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.raed-more{
+    width: 10vw;
+    height: 10vh;
+    color: #ffffff;
+    font-size: 19px;
+    border-radius: 20px;
+    background-color: #000120;
+    cursor: pointer;
+    transition: 0.4s;
+    border: none;
+}
+button:hover{
+background-color: #081a21;
+color: aliceblue;
+transform: translate(0%,-5%);
+}
+hgroup{
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    text-align: center;
+    gap: 10%;
+}
+hgroup h1{
+font-size: 5vw;
+}
+hgroup p{
+    width: 80%;
+font-size: 2vw;
+}

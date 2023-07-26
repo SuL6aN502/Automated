@@ -1,0 +1,70 @@
+
+body{
+    background-color:#082430;
+}
+main{
+    height: 380vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sect1{
+    width: 100%;
+    height: 3%;
+    background-color:#006d9b;
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.sect1 h1{
+font-size: 4vw;
+}
+/* -------------------------------------- */
+.sect2{
+    height: 91%;
+    background-color:#082430;
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+.card{
+    width: 90%;
+    height: 25%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    color: #222;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+b{
+    color: #004e6f;
+}
+hgroup{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card h2{
+font-size: 50px;
+}
+.card p{
+width: 80%;
+font-size: 30px;
+}
+.sect2 img{
+    width: 50%;
+
+}
