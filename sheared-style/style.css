@@ -72,8 +72,10 @@ button:hover{
     transform: translate(0%,-10%);
     cursor: pointer;
 }
-
-
+.link-btm{
+    text-decoration: none;
+    color: whitesmoke;
+}
 /* ------------------------------------------------- */
 
 footer{

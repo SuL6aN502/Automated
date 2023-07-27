@@ -1,0 +1,51 @@
+main{
+    height: 113vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+width: 80%;
+height: 80vh;
+background-color: #008FA4;
+border-radius: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+color: aliceblue;
+}
+section img{
+    width: 48%;
+}
+hgroup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    height: 100%;
+}
+hgroup h1{
+font-size: 90px;
+}
+hgroup p{
+    font-size: 50px;
+}
+hgroup button{
+    height: 10vh;
+    width: 15vw;
+    color: azure;
+    transition: 0.5s;
+    background-color: #004E6F;
+}
+hgroup button:hover{
+border-bottom: none;
+color: azure;
+transform: translate(-20px,0);
+border-right:#2658ff 20px solid ;
+}
+span{
+    color: #004E6F;
+}
