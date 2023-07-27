@@ -38,6 +38,7 @@ header nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 13px;
 }
 nav a{
     color: aliceblue;
