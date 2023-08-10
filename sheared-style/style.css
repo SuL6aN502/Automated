@@ -11,10 +11,11 @@
     font-family: 'Tajawal', sans-serif;
 }
 header{
-    height: 13vh;
+    height: 11vh;
     width: 100vw;
     position: fixed;
-    background-color: #004e6f;
+    background-color: #051217;
+    /* backdrop-filter: blur(40px); */
     border-bottom-left-radius:10px ;
     border-bottom-right-radius: 10px;
     display: flex;
@@ -46,7 +47,7 @@ nav a{
     border-right:3px whitesmoke solid;
     text-decoration: none;
     transition: 0.6s ;
-    padding: 10px;
+    padding: 5px;
 }
 nav a:hover{
     color: #00FFFF;
@@ -62,14 +63,14 @@ button{
     background-color: #00ffff5d;
     color: whitesmoke;
     margin:0 3vw 0 3vw ;
-    transition: 0.4s;
+    transition: 0.3s;
     border: none;
 }
 button:hover{
     color: #02333a;
-    border-right:#2658ff 5px solid ;
-    border-bottom:#2658ff 5px solid ;
-    transform: translate(0%,-10%);
+    border-right:#2658ff 3px solid ;
+    border-bottom:#2658ff 3px solid ;
+    transform: translate(0%,-5px);
     cursor: pointer;
 }
 .link-btm{
@@ -77,7 +78,30 @@ button:hover{
     color: whitesmoke;
 }
 /* ------------------------------------------------- */
-
+.to-up{
+    width:60px;
+    height:60px;
+    font-size: 0px;
+    border-radius: 40px;
+    background-color: #00ffff6b;
+    color: whitesmoke;
+    margin:0 0vw 0 0vw ;
+    transition: 0.5s;
+    border: none;
+    bottom: 30px;
+    right: 30px;
+    position: fixed;
+    display: none;
+}
+.to-up:hover{
+    background-color: #00ffff;
+}
+.up{
+    bottom: 10px;
+    right: 10px;
+    display:block;
+}
+/* ------------------------------------------------- */
 footer{
     height: 40vh;
     width: 100%;
@@ -115,4 +139,22 @@ footer p{
 color: aliceblue;
 text-align: center;
 bottom: 0;
+}
+/* -------------------------------------------------- */
+::-webkit-scrollbar{
+color: #051217;
+background-color: #00FFFF;
+
+}
+::-webkit-scrollbar-track{
+background-color: #02333a;
+}
+::-webkit-scrollbar-thumb{
+
+background-color: #00ffff2e;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #00ffff;
+border-radius: 20px;
+
 }
